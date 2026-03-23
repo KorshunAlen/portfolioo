@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 1 курс
+permalink: /year1/
 ---
 
 <style>
