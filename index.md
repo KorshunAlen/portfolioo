@@ -29,7 +29,6 @@ title: Портфолио
     position: sticky;
     top: 0;
     background: white; 
-    padding: 15px;
     text-align: center;
     z-index: 1000;
 }
@@ -43,7 +42,7 @@ title: Портфолио
     border-radius: 12px;        
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     transition: 0.3s;
 }
 
