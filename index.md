@@ -64,7 +64,7 @@ body {
 
 </style>
 
-<a href="/about" class="card">Обо мне</a>
+<a href="/about/" class="card">Обо мне</a>
 
 <div class="hero">
 
