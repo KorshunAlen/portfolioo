@@ -24,15 +24,22 @@ title: Портфолио
 }
 
 .nav a {
+    display: inline-block;
+    background: #2c3e50;
     color: white;
-    margin: 15px;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 12px;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
 .nav a:hover {
-    text-decoration: underline;
+    background: #1a252f;
+    transform: translateY(-3px);
 }
     
 .cards {
@@ -60,28 +67,6 @@ title: Портфолио
 body {
     background: #f4f6f8;
     font-family: Arial;
-}
-
-.about-btn {
-    position: fixed;
-    top: 200px;
-    right: 20px; 
-
-    background: #2c3e50;
-    color: white;
-    padding: 15px 20px;
-
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: bold;
-
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
-
-.about-btn:hover {
-    background: #1a252f;
-    transform: translateX(-5px); 
 }
 
 </style>
