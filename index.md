@@ -39,18 +39,38 @@ body {
     background: #f4f6f8;
     font-family: Arial;
 }
+
+.about-btn {
+    position: fixed;
+    top: 200px;
+    right: 20px; 
+
+    background: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background: #1a252f;
+    transform: translateX(-5px); 
+}
+
 </style>
 
 <div class="hero">
-
-<h1>Коршунова Алена</h1>
 
 <p>Студент IT-направления</p>
 <p>Портфолио учебных и проектных работ</p>
 
 </div>
 
-<a href="/about" class="card">Обо мне</a>
 ---
 
 ## Мои работы
@@ -79,6 +99,6 @@ body {
 
 </div>
 
-
+<a href="/about" class="card">Обо мне</a>
 
 
