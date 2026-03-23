@@ -4,6 +4,17 @@ title: Портфолио
 ---
 
 <style>
+body {
+    max-width: 700px;
+    margin: 0 auto; /* центрирование по горизонтали */
+    padding: 20px;  /* внутренние отступы для комфорта */
+    box-sizing: border-box;
+}
+
+/* Чтобы все объекты внутри страницы тоже подстраивались */
+* {
+    box-sizing: border-box;
+}
 
 .hero {
     text-align: center;
