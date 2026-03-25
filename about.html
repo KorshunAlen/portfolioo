@@ -17,7 +17,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Чтобы все объекты внутри страницы тоже подстраивались */
 * {
     box-sizing: border-box;
 }
@@ -46,6 +45,34 @@ body {
 .nav a:hover {
     transform: translateY(-3px); 
 }
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.about-photo img {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
     
 </style>
 
@@ -58,3 +85,25 @@ body {
   <a href="/portfolioo/year4">4 курс</a>
 </div>
 
+
+<div class="about-container">
+
+<div class="about-photo">
+<img src="/portfolioo/images/photo.jpg" alt="Фото">
+</div>
+
+<div class="about-text">
+
+<h2>Коршунова Алена</h2>
+
+<p>
+Я студентка Российского государственного педагогического университета имени А.И. Герцена.  
+</p>
+
+<p>
+Обучаюсь по направлению "Информатика и вычислительная техника". 
+</p>
+    
+</div>
+
+</div>
