@@ -54,6 +54,25 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.subject a {
+    color: black; 
+}
+
+.subject-description {
+    color: #555;          /* Серый цвет для контраста с заголовком */
+    font-size: 16px;      /* Чуть меньше заголовка */
+    line-height: 1.5;     /* Удобное межстрочное расстояние */
+    margin-top: 8px;      /* Отступ от заголовка */
+    margin-bottom: 0;
+}
+
+/* Опционально: можно добавить легкое выделение при наведении на весь блок */
+.subject:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+    
 </style>
 
 <div class="nav">
@@ -67,56 +86,48 @@ body {
 
 <h1>2 курс</h1>
 
-<h2>3 семестр</h2>
-
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/1XwsabjvC_NzicVWteH0vfZQ3jUTy5dH6?usp=sharing">Анализ данных и основы Data science</a></h3>
+    <h3><a href="https://drive.google.com/drive/folders/1XwsabjvC_NzicVWteH0vfZQ3jUTy5dH6?usp=sharing">Анализ данных и основы Data science</a></h3>
+    <p class="subject-description"> Применение методов статистического анализа для обработки, интерпретации и визуализации данных. Изучение теоретических основ вероятностного распределения и практическая реализация прикладных задач в среде MS Excel </p>
 </div>
 
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/1A3_SJblnHO9FFCLSoPG4uch5lk3raQLt?usp=sharing">Вычислительная математика</a></h3>
+    <h3><a href="https://drive.google.com/drive/folders/1A3_SJblnHO9FFCLSoPG4uch5lk3raQLt?usp=sharing">Вычислительная математика</a></h3>
+    <p class="subject-description"> Изучение численных методов решения математических задач, которые не имеют точного аналитического решения: исследование погрешностей вычислений, программная реализация методов решения нелинейных уравнений, систем линейных и нелинейных алгебраических уравнений, методов интерполяции, численного дифференцирования и интегрирования, а также решение обыкновенных дифференциальных уравнений и их систем. </p>
 </div>
 
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/12uULQccXGxJRKTUm_rhGQK5NlDAO4wMC?usp=sharing">Пакеты прикладных программ для статистической обработки и анализа данных</a></h3>
+    <h3><a href="https://drive.google.com/drive/folders/12uULQccXGxJRKTUm_rhGQK5NlDAO4wMC?usp=sharing">Пакеты прикладных программ для статистической обработки и анализа данных</a></h3>
+    <p class="subject-description"> Изучение методов количественного анализа и работы со специализированным ПО. Включает проектирование массовых опросов, освоение инструментов для описательной статистики, проверку гипотез и визуализацию данных.</p>
 </div>
 
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/1DGLRdBlhbmdmHpAdSmsYer9fl3jww7yr?usp=sharing">Физика</a></h3>
+    <h3><a href="https://drive.google.com/drive/folders/1DGLRdBlhbmdmHpAdSmsYer9fl3jww7yr?usp=sharing">Физика</a></h3>
+    <p class="subject-description"> Экспериментальное и теоретическое исследование фундаментальных физических явлений. Дисциплина включает изучение законов постоянного тока, применение законов Кирхгофа для анализа электрических цепей, а также исследование переходных процессов в RC-цепях. </p>
+</div>
+
+<div class="subject">
+    <h3><a href="https://drive.google.com/drive/folders/1R0g-Zh-lOAEG9gGJQrgsWNfYI2p6vAgm?usp=sharing">Вычислительная техника</a></h3>
+    <p class="subject-description"> Изучение архитектуры микропроцессоров (на примере i8086) и принципов программирования на языке ассемблера. Освоение работы с регистрами ЦП, организацией памяти, флагами состояния и механизмами прерываний. </p>
+</div>
+
+<div class="subject">
+    <h3><a href="https://drive.google.com/drive/folders/1h_nDr-Jf0nZN7ddy3k4tPC6p11B_yQrr?usp=sharing">Операционные системы</a></h3>
+    <p class="subject-description"> Изучение архитектуры современных ОС (на примере Windows) и принципов управления вычислительными ресурсами. Освоение методов взаимодействия с ядром через командную строку и Win32. Практическая работа с многопоточностью, управление процессами и анализ конфигураций системы.</p>
 </div>
 
 <h2>Учебная (технологическая (проектно-технологическая)) практика</h2>
 
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/1OWnoKaRB5YQ0ecbs-xelK3TcjtWKLNLS?usp=sharing">Практика</a></h3>
+    <h3><a href="https://github.com/KorshunAlen/Practice3semester">Практика</a></h3>
+    <p class="subject-description"> Освоение методов профессиональной работы в IT: проектирование автоматизированных рабочих мест, подготовка технической документации и нормативных баз. Выполнено исследование актуальных направлений в области искусственного интеллекта.</p>
 </div>
 
-<h2>4 семестр</h2>
-
-<div class="subject">
-<h3><a href="">Анализ данных и основы Data science</a></h3>
-</div>
+<h2>Курсовая работа</h2>
 
 <div class="subject">
-<h3><a href="">Базы данных</a></h3>
+    <h3><a href="https://disk.yandex.ru/d/plAoRa0Xanodvw">Курсовая работа: Разработка тайм-трекера для анализа и оптимизации временных затрат</a></h3>
+    <p class="subject-description"> Разработка программного приложения (тайм-трекера) для автоматизированного анализа и оптимизации временных затрат пользователя. Проект включает изучение теоретических основ тайм-менеджмента, проектирование архитектуры приложения, выбор алгоритмов обработки данных и реализацию программного решения на языке Python. Практическая деятельность направлена на создание функционального инструмента для повышения личной эффективности, включая визуализацию статистики использования времени.</p>
 </div>
 
-<div class="subject">
-<h3><a href="">Вычислительная техника</a></h3>
-</div>
 
-<div class="subject">
-<h3><a href="">Интегралы и дифференциальные уравнения</a></h3>
-</div>
-
-<div class="subject">
-<h3><a href="">Операционные системы</a></h3>
-</div>
-
-<div class="subject">
-<h3><a href="">Программирование</a></h3>
-</div>
-
-<div class="subject">
-<h3><a href="">Технологии компьютерного моделирования</a></h3>
-</div>
