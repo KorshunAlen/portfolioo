@@ -58,6 +58,20 @@ body {
 .subject a {
     color: black; 
 }
+
+.subject-description {
+    color: #555;          /* Серый цвет для контраста с заголовком */
+    font-size: 16px;      /* Чуть меньше заголовка */
+    line-height: 1.5;     /* Удобное межстрочное расстояние */
+    margin-top: 8px;      /* Отступ от заголовка */
+    margin-bottom: 0;
+}
+
+/* Опционально: можно добавить легкое выделение при наведении на весь блок */
+.subject:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
     
 </style>
 
@@ -72,10 +86,10 @@ body {
 
 <h1>1 курс</h1>
 
-<h2>1 семестр</h2>
 
 <div class="subject">
-<h3><a href="https://drive.google.com/drive/folders/1QGScC5MBf8cjPnTj3DAksgLHG5Owr2ip?usp=sharing">Безопасность жизнедеятельности</a></h3>
+    <h3><a href="https://drive.google.com/drive/folders/1QGScC5MBf8cjPnTj3DAksgLHG5Owr2ip?usp=sharing">Безопасность жизнедеятельности</a></h3>
+    <p class="subject-description">Изучение основ защиты человека в условиях техносферы, алгоритмы действий при чрезвычайных ситуациях и охрана труда.</p>
 </div>
 
 <div class="subject">
